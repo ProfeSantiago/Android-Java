@@ -43,11 +43,7 @@ public class MainActivity extends AppCompatActivity {
         miSpinner = (Spinner) findViewById(R.id.miSpinner);
 
         ArrayAdapter dataAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, listaCiudades);
-        /*
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_spinner_item, listaCiudades);
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        */
+
         miSpinner.setAdapter(dataAdapter);
     }//Fin onCreate =======================
 
